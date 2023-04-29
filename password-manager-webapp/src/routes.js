@@ -11,7 +11,7 @@ const RouteComponent  = ()=>{
                 { path : '/' , 
                   element : <MainLayout/>,
                   children: [
-                    { path: 'login', element: <Login /> },
+                    { path: '/', element: <Login /> },
                     { path: 'dashboard', element:<Dashboard/>}
                     ]
                 }
